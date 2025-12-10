@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Studio - Style & Tradition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">BARBER STUDIO</div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Hero (destaque) -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">STYLE</span>
+                <span class="title-line">TRADITION</span>
+                <span class="title-line">EXCELLENCE</span>
+            </h1>
+            <p class="hero-subtitle">Where the classic meets the contemporary</p>
+            <a href="#contact" class="cta-button">Book Appointment</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to discover</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Our Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Cartão do Serviço 1 -->
+                <div class="service-card" data-service="1">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">Classic Haircut</h3>
+                    <p class="service-description">Traditional techniques with a flawless finish for a timeless look.</p>
+                    <span class="service-price">$60</span>
+                </div>
+
+                <!-- Cartão do Serviço 2 -->
+                <div class="service-card" data-service="2">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">Beard & Mustache</h3>
+                    <p class="service-description">Full grooming and shaping with premium products.</p>
+                    <span class="service-price">$50</span>
+                </div>
+
+                <!-- Cartão do Serviço 3 -->
+                <div class="service-card" data-service="3">
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">Haircut + Beard</h3>
+                    <p class="service-description">Complete male grooming experience.</p>
+                    <span class="service-price">$95</span>
+                </div>
+
+                <!-- Cartão do Serviço 4 -->
+                <div class="service-card" data-service="4">
+                    <div class="service-number">04</div>
+                    <h3 class="service-title">Hair Treatment</h3>
+                    <p class="service-description">Deep hydration and revitalization for your hair.</p>
+                    <span class="service-price">$80</span>
+                </div>
+
+                <!-- Cartão do Serviço 5 -->
+                <div class="service-card" data-service="5">
+                    <div class="service-number">05</div>
+                    <h3 class="service-title">Eyebrow Design</h3>
+                    <p class="service-description">Precise shaping to enhance your look.</p>
+                    <span class="service-price">$35</span>
+                </div>
+
+                <!-- Cartão do Serviço 6 -->
+                <div class="service-card" data-service="6">
+                    <div class="service-number">06</div>
+                    <h3 class="service-title">Premium Package</h3>
+                    <p class="service-description">VIP experience with all services included.</p>
+                    <span class="service-price">$180</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Galeria -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Our Work</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Item da Galeria -->
+                <div class="gallery-item">
+                    <img src="./fade.jpg" alt="Modern haircut">
+                    <div class="gallery-overlay">
+                        <span>Fade Cut</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./transferir.jpg" alt="Classic beard">
+                    <div class="gallery-overlay">
+                        <span>Classic Beard</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./pompadour.jpg" alt="Pompadour">
+                    <div class="gallery-overlay">
+                        <span>Pompadour</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./espaço.jpg" alt="Barbershop interior">
+                    <div class="gallery-overlay">
+                        <span>Our Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./undercut.jpg" alt="Undercut">
+                    <div class="gallery-overlay">
+                        <span>Undercut</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./tratamento.jpg" alt="Beard trimming">
+                    <div class="gallery-overlay">
+                        <span>Beard Treatment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <span class="section-number">03</span>
+                        <h2 class="section-title">Our History</h2>
+                    </div>
+
+                    <p class="about-description">
+                        Since 2010, Barber Studio has been a reference in men's style, 
+                        combining traditional barbershop techniques with the most modern 
+                        trends in the market.
+                    </p>
+                    <p class="about-description">
+                        Our highly qualified team is committed to providing not only a haircut 
+                        but a complete care and well-being experience.
+                    </p>
+
+                    <!-- Estatísticas da Barbearia -->
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="10000">0</span>
+                            <span class="stat-label">Satisfied Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="8">0</span>
+                            <span class="stat-label">Professionals</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagem Sobre -->
+                <div class="about-image">
+                    <img src="./barbearia.webp" alt="Barbershop interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Contact Us</h2>
+            </div>
+            
+            <div class="contact-content">
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Address</h3>
+                        <p>Elegance Street, 123<br>Downtown - São Paulo, SP<br>ZIP: 01234-567</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Opening Hours</h3>
+                        <p>Monday to Friday: 9am to 8pm<br>Saturday: 9am to 6pm<br>Sunday: Closed</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Contact</h3>
+                        <p>Phone: (11) 98765-4321<br>Email: contact@barberstudio.com.br</p>
+                    </div>
+                </div>
+                
+                <!-- Formulário de Contato -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="corte">Classic Haircut</option>
+                            <option value="barba">Beard & Mustache</option>
+                            <option value="combo">Haircut + Beard</option>
+                            <option value="tratamento">Hair Treatment</option>
+                            <option value="sobrancelha">Eyebrow Design</option>
+                            <option value="premium">Premium Package</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" placeholder="Message (optional)"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">BARBER STUDIO</div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">WhatsApp</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Barber Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
